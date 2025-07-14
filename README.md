@@ -9,3 +9,20 @@
     Python >= 3.8
     torch >= 1.8
     ultralytics >= 8.0
+
+## 使用说明
+    1. YOLOv8环境安装
+
+    我们使用的是ultralytics(8.0.0) python package,其安装方式如下
+   
+    'pip install ultralytics'
+
+    2. 构建训练集
+
+    - images/
+      - train/
+      - val/
+    - labels/
+      - train/
+      - val/
+
