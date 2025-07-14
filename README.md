@@ -14,18 +14,20 @@
 pip install ultralytics
 ```
 ### 2. 构建训练集
-    - images/
-      - train/
-      - val/
-    - labels/
-      - train/
-      - val/
+    - docs
+    - dataset/
+      - score/
+        - images/
+          - train/
+          - val/
+        - labels/
+          - train/
+          - val/
 ### 3.构建自己训练集的配置文件和模型配置文件
-+ 模型配置文件：
 ### 4.YOLOv8推断Demo
 ```shell
 # 自己实现的推断程序
-python3 inference.py
+python infer_onnx.py
 ```
 
 
